@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ListIntegerSorting {
+public class ListLongSorting {
 
 	public static void main(String args[]) {
-		List<Integer> list = new ArrayList<Integer>();
-		list.add(123);
-		list.add(34);
-		list.add(567);
+		List<Long> list = new ArrayList<Long>();
+		list.add(123L);
+		list.add(34L);
+		list.add(567L);
 		System.out.println("****Before Sorting****");
 		list.stream().forEach(name -> System.out.println(name));
 
@@ -21,10 +21,10 @@ public class ListIntegerSorting {
 
 		list.clear();
 
-		list = new ArrayList<Integer>();
-		list.add(123);
-		list.add(34);
-		list.add(567);
+		list = new ArrayList<Long>();
+		list.add(123L);
+		list.add(34L);
+		list.add(567L);
 
 		// sorting using stream
 		System.out.println("**** Sorting using list stream ****");
