@@ -4,14 +4,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ListDoubleSorting {
+public class ListPrimitiveDataSorting {
 
 	public static void main(String args[]) {
-				
-		List<Double> list = new ArrayList<Double>();
-		list.add(123.5);
-		list.add(34.4);
-		list.add(567.3);
+		List list = new ArrayList();
+		list.add(123);
+		list.add(34);
+		list.add(567);
 		System.out.println("****Before Sorting****");
 		list.stream().forEach(name -> System.out.println(name));
 
@@ -22,10 +21,10 @@ public class ListDoubleSorting {
 
 		list.clear();
 
-		list = new ArrayList<Double>();
-		list.add(123.5);
-		list.add(34.4);
-		list.add(567.3);
+		list = new ArrayList();
+		list.add(123);
+		list.add(34);
+		list.add(567);
 
 		// sorting using stream
 		System.out.println("**** Sorting using list stream ****");
